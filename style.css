@@ -88,7 +88,7 @@ main .container .right-side .buttons .buton button{
  border-radius: 5px;
 }
 
-@media screen and (max-width:1024px ){
+@media  (max-width:1024px ){
   body{
     max-width: 900px;
     background-color: #d9e9f8;
@@ -191,7 +191,7 @@ main .container .right-side .buttons .buton button{
   main .container .left-side{
   padding: 19px 42px;
   margin: 20px auto;
-  
+  max-width: 400px;
   
   }
   
@@ -254,6 +254,11 @@ main .container .right-side .buttons .buton button{
    border-radius: 5px;
   }
 }
+
+
+
+
+
 @media screen and (max-width:790px ){
   body{
     max-width: 425px;
@@ -266,15 +271,15 @@ main .container .right-side .buttons .buton button{
      
   }
   main .container .row{
+    max-width: 425px;
    display: grid;
    grid-template-columns: repeat(1 ,1fr);
-  gap: 20px;
   }
   
   main .container .left-side{
-  padding: 0px 42px;
-  margin: 20px auto;
-  
+  display: grid;
+  grid-template-rows: repeat(2,1fr);
+   padding: 10px;
   
   }
   
@@ -291,7 +296,7 @@ main .container .right-side .buttons .buton button{
   
   main .container .right-side{
     background-color: white;
-   width: 388px;
+   width: 314px;
     height: 333px;
     padding: 27px 31px;
    box-shadow: 0 0 10px rgb(146, 138, 138);
@@ -299,7 +304,7 @@ main .container .right-side .buttons .buton button{
    
   }
   main .container .right-side .content .inputs input   {
-   padding: 10px 150px 10px 10px;
+   padding: 10px 70px 10px 10px;
    margin-bottom: 20px;
    border: 1px solid gainsboro;
    border-radius: 5px;
@@ -314,7 +319,7 @@ main .container .right-side .buttons .buton button{
   }
   
   main .container .right-side .buttons .button button{
-  padding: 12px 140px;
+  padding: 12px 103px;
   background-color: #0084FF;
   border: none;
   color: white;
